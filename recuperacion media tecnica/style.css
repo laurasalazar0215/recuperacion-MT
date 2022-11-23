@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height:88px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.tiendita{
+color: #fc4620;
+font-family: 'Inter', sans-serif;
+font-size: 22px;
+font-style: oblique;
+font-weight: 900;
+}
+
+.content{
+    display: inline-flex;
+}
+
+.location{
+    width: 18px;
+    height: 22px;
+    left: 37.5%;
+    right: 37.5%;
+    top: 29.17%;
+    bottom: 45.83%;
+}
+
+.info-ciudad{
+    padding: 20px;
+}
+
+.btn-comprar{
+    background-color: #0AC763;
+    width: 89px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 8px;
+    border: none;
+}
+
+.section{
+    background-color:rgb(92, 83, 83);
+}
+
+.contenedor-principal{
+    margin: auto;
+    width: 1286px;
+    height: 250px;
+    left: 40px;
+    margin-top: 60px;
+    border-radius: 16px;
+    background-image: url(./imagenes/banner.jpg);
+}
+
+.info-principal{
+    margin: auto;
+    width: 796px;
+    height: 42px;
+    left: 265px;
+    top: 144px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 10%;
+    line-height: 42px;
+    color: white;
+}
+
+.ofertas{
+    margin: auto;
+    width: 1200px;
+    height: 330px;
+    left: 40px;
+    margin-top: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.ofertas-name{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.descuento{
+    border-radius: 16px;
+    background: #F0E3FE;
+    color: #5E18BB;
+    font-family: 'Poppins', sans-serif;
+    width: 59px;
+    height: 24px;
+}
+
+.producto{
+    width: 230px;
+    height: 155px;
+    margin-top: 18px;
+}
+
+.precio{
+    font-size: 16px;
+    font-weight:700 ;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    color: #332927;
+}
+
+.descripcion{
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.btn-agregar{
+    align-items: center;
+    padding: 12px 24px;
+    margin-top: 29px;
+    gap: 10px;
+    width: 195px;
+    background: #0AC763;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.tarjeta{
+display: inline-block;
+padding-bottom: 10px;
+}
+
+.mas-vendido{
+    margin: auto;
+    width: 1200px;
+    height: 330px;
+    left: 40px;
+    margin-top: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 40px;
+
+}
+
+.masvendido-name{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.tarjeta-2{
+    display: inline-block;
+}
